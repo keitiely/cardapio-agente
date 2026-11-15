@@ -117,49 +117,69 @@ def tabela_itens(cardapio: Cardapio) -> pd.DataFrame:
 
 
 def mostrar_resultado(cardapio: Cardapio, foto, modelo: str | None = None, de_exemplo: bool = False):
-    col_foto, col_dados = st.columns([2, 3], gap="large")
+    col_foto, col_dados = st.columns([1, 2], gap="large")
 
     with col_foto:
-        st.image(foto, width="stretch")
+        with st.container(border=True):
+            st.image(foto, width="stretch")
+            st.caption("Foto original")
 
     with col_dados:
-        if cardapio.estabelecimento:
-            st.subheader(cardapio.estabelecimento)
-
-        a, b, c = st.columns(3)
-        a.metric("Itens", len(cardapio.itens))
-        b.metric("Problemas", len(cardapio.problemas))
-        c.metric("Tempo", f"{cardapio.tempos.get('total', 0):.1f} s")
+        with st.container(border=True):
+            st.subheader(cardapio.estabelecimento or "Resultado")
+            a, b, c = st.columns(3)
+            a.metric("Itens", len(cardapio.itens))
+            b.metric("Problemas", len(cardapio.problemas))
+            c.metric("Tempo", f"{cardapio.tempos.get('total', 0):.1f} s")
+            legenda = "Resultado salvo (não gastou cota)." if de_exemplo else f"Modelo: {modelo}."
+            st.caption(legenda)
 
         if cardapio.revisao_humana:
-            st.warning("**Precisa de revisão humana** antes de publicar.", icon="🔎")
-            for p in cardapio.problemas:
-                rotulo = NOMES_PROBLEMAS.get(p.tipo, p.tipo)
-                alvo = f" · **{p.item}**" if p.item else ""
-                st.markdown(f"- {rotulo}{alvo}: {p.detalhe}")
+            st.warning(
+                f"**Precisa de revisão humana** antes de publicar: {len(cardapio.problemas)} ponto(s).",
+                icon="🔎",
+            )
+            with st.expander("Ver o que revisar", expanded=len(cardapio.problemas) <= 3):
+                for p in cardapio.problemas:
+                    rotulo = NOMES_PROBLEMAS.get(p.tipo, p.tipo)
+                    alvo = f" · **{p.item}**" if p.item else ""
+                    st.markdown(f"- {rotulo}{alvo}: {p.detalhe}")
         else:
             st.success("Nenhum problema encontrado: pronto para publicar.", icon="✅")
 
         if not cardapio.enriquecido and cardapio.itens:
             st.info("O Enriquecedor não rodou: o cardápio saiu sem tags e sem descrições sugeridas.", icon="ℹ️")
 
-        legenda = "Resultado salvo (não gastou cota)." if de_exemplo else f"Modelo: {modelo}."
-        st.caption(legenda)
-
-    st.dataframe(tabela_itens(cardapio), width="stretch", hide_index=True)
-
-    with st.expander("Tempo por etapa"):
-        st.bar_chart(
-            pd.Series({k: v for k, v in cardapio.tempos.items() if k != "total"}, name="segundos"),
-            horizontal=True,
-        )
-
-    st.download_button(
-        "Baixar JSON",
-        data=cardapio.model_dump_json(indent=2),
-        file_name="cardapio.json",
-        mime="application/json",
+    st.divider()
+    st.markdown("#### Itens extraídos")
+    st.dataframe(
+        tabela_itens(cardapio),
+        width="stretch",
+        hide_index=True,
+        column_config={
+            "Item": st.column_config.TextColumn(width="medium"),
+            "Preço": st.column_config.TextColumn(width="small"),
+            "Descrição": st.column_config.TextColumn(width="large"),
+        },
     )
+
+    st.write("")
+    col_tempo, col_json = st.columns(2, gap="large")
+    with col_tempo:
+        with st.expander("Tempo por etapa"):
+            st.bar_chart(
+                pd.Series({k: v for k, v in cardapio.tempos.items() if k != "total"}, name="segundos"),
+                horizontal=True,
+            )
+    with col_json:
+        with st.expander("Ver o JSON"):
+            st.json(cardapio.model_dump(mode="json"), expanded=1)
+        st.download_button(
+            "Baixar JSON",
+            data=cardapio.model_dump_json(indent=2),
+            file_name="cardapio.json",
+            mime="application/json",
+        )
 
 
 # ---------------------------------------------------------------- abas
