@@ -1,0 +1,15 @@
+# Segredos
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# fotos de teste soltas na raiz
+/teste.*

@@ -1,0 +1,17 @@
+{
+  "_instrucoes": [
+    "Copie este arquivo com o MESMO nome da foto: fotos/padaria.jpg -> gabaritos/padaria.json",
+    "Digite olhando a foto, sem usar a saída do sistema (senão o gabarito copia os erros dele).",
+    "nome: como está escrito, mas sem numeração na frente ('01 - Fritas' -> 'Fritas').",
+    "preco: número com ponto (25.90). Se tiver P/M/G na mesma linha ou não tiver preço, use null.",
+    "categoria: o título da seção na foto. Se o item não estiver em nenhuma seção, use 'Outros'.",
+    "tempo_manual_min: quantos minutos você levou para digitar este gabarito (cronometre!).",
+    "Pode apagar esta lista _instrucoes no seu arquivo."
+  ],
+  "estabelecimento": "Nome do lugar ou null",
+  "tempo_manual_min": 8.5,
+  "itens": [
+    {"nome": "Fritas", "preco": 25.90, "categoria": "Entradas"},
+    {"nome": "Pizza Calabresa", "preco": null, "categoria": "Pizzas"}
+  ]
+}

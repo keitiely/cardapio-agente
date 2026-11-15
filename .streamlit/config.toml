@@ -1,0 +1,8 @@
+[server]
+maxUploadSize = 10  # MB: foto de cardápio não precisa de mais
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#EA1D2C"
