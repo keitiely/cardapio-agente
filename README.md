@@ -6,7 +6,7 @@ O problema: cadastrar um cardápio à mão leva cerca de **13 minutos** (medido)
 
 [![Testes](https://github.com/keitiely/cardapio-agente/actions/workflows/ci.yml/badge.svg)](https://github.com/keitiely/cardapio-agente/actions/workflows/ci.yml)
 
-**Demo:** _link do Streamlit Cloud (em breve)_
+**Demo:** [cardapio-agente.streamlit.app](https://cardapio-agente.streamlit.app), com 3 cardápios já processados para ver na hora, sem gastar cota.
 
 <!-- GIF da demo entra aqui -->
 
