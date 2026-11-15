@@ -1,0 +1,226 @@
+{
+  "modelo": "gemini-3.6-flash",
+  "cardapio": {
+    "estabelecimento": "Expresso DOCES & SALGADOS",
+    "itens": [
+      {
+        "nome": "Pastel",
+        "preco": 13.0,
+        "preco_original": "R$ 13,00",
+        "categoria": "Salgados",
+        "descricao": "• Carne ou Frango 180g",
+        "tags": [
+          "frito"
+        ]
+      },
+      {
+        "nome": "Pastel Especial",
+        "preco": 15.0,
+        "preco_original": "R$ 15,00",
+        "categoria": "Salgados",
+        "descricao": "• Carne, Ovo e Queijo (opcionais) • 180g",
+        "tags": [
+          "frito"
+        ]
+      },
+      {
+        "nome": "Coxinha",
+        "preco": 7.0,
+        "preco_original": "R$ 7,00",
+        "categoria": "Salgados",
+        "descricao": "• Frango ou Carne 180g",
+        "tags": [
+          "frito"
+        ]
+      },
+      {
+        "nome": "Pasteizinhos",
+        "preco": null,
+        "preco_original": "R$ 75,00 100 UNIDADES",
+        "categoria": "Salgados",
+        "descricao": "Porção de pasteizinhos.",
+        "tags": [
+          "frito"
+        ]
+      },
+      {
+        "nome": "Rissóles",
+        "preco": null,
+        "preco_original": "R$ 75,00 100 UNIDADES",
+        "categoria": "Salgados",
+        "descricao": "Salgado tipo rissole.",
+        "tags": [
+          "frito"
+        ]
+      },
+      {
+        "nome": "Enroladinho de Salsicha",
+        "preco": null,
+        "preco_original": "R$ 75,00 100 UNIDADES",
+        "categoria": "Salgados",
+        "descricao": "Salgado enroladinho de salsicha.",
+        "tags": [
+          "frito"
+        ]
+      },
+      {
+        "nome": "Croquete",
+        "preco": null,
+        "preco_original": "R$ 75,00 100 UNIDADES",
+        "categoria": "Salgados",
+        "descricao": "Salgado tipo croquete.",
+        "tags": [
+          "frito"
+        ]
+      },
+      {
+        "nome": "Beijinho",
+        "preco": null,
+        "preco_original": "R$ 75,00 100 UNIDADES",
+        "categoria": "Doces",
+        "descricao": "• 20g",
+        "tags": [
+          "doce"
+        ]
+      },
+      {
+        "nome": "Brigadeiro",
+        "preco": null,
+        "preco_original": "R$ 75,00 100 UNIDADES",
+        "categoria": "Doces",
+        "descricao": "• 20g",
+        "tags": [
+          "doce"
+        ]
+      },
+      {
+        "nome": "Combo 1",
+        "preco": 8.0,
+        "preco_original": "R$ 8,00",
+        "categoria": "Combos",
+        "descricao": "1 Coxinha 180g + 1 Coca 200ml",
+        "tags": []
+      },
+      {
+        "nome": "Combo 2",
+        "preco": 15.0,
+        "preco_original": "R$ 15,00",
+        "categoria": "Combos",
+        "descricao": "2 Coxinhas 180g + 2 Cocas 200ml",
+        "tags": []
+      },
+      {
+        "nome": "Combo Salgados P",
+        "preco": 15.0,
+        "preco_original": "R$ 15,00",
+        "categoria": "Combos",
+        "descricao": "3 Coxinhas 3 Enroladinhos de Salsicha 3 Pastéis + 1 Coca 200ml",
+        "tags": [
+          "para_compartilhar"
+        ]
+      },
+      {
+        "nome": "Combo Salgados M",
+        "preco": 20.0,
+        "preco_original": "R$ 20,00",
+        "categoria": "Combos",
+        "descricao": "4 Coxinhas 4 Enroladinhos de Salsicha 4 Pastéis + 1 Coca 200ml",
+        "tags": [
+          "para_compartilhar"
+        ]
+      },
+      {
+        "nome": "Combo Salgados G",
+        "preco": 25.0,
+        "preco_original": "R$ 25,00",
+        "categoria": "Combos",
+        "descricao": "5 Coxinhas 5 Enroladinhos de Salsicha 5 Pastéis + 2 Beijinhos + 2 Cocas 200ml",
+        "tags": [
+          "para_compartilhar"
+        ]
+      },
+      {
+        "nome": "COCA LATA 350ml",
+        "preco": 5.0,
+        "preco_original": "R$ 5,00",
+        "categoria": "Bebidas",
+        "descricao": "Refrigerante Coca-Cola em lata de 350ml.",
+        "tags": [
+          "bebida_sem_alcool"
+        ]
+      },
+      {
+        "nome": "COCA 200ml",
+        "preco": 2.5,
+        "preco_original": "R$ 2,50",
+        "categoria": "Bebidas",
+        "descricao": "Refrigerante Coca-Cola de 200ml.",
+        "tags": [
+          "bebida_sem_alcool"
+        ]
+      },
+      {
+        "nome": "COCA LATA ZERO 310ml",
+        "preco": 4.0,
+        "preco_original": "R$ 4,00",
+        "categoria": "Bebidas",
+        "descricao": "Refrigerante Coca-Cola zero açúcar em lata de 310ml.",
+        "tags": [
+          "bebida_sem_alcool"
+        ]
+      },
+      {
+        "nome": "Fanta Lata",
+        "preco": 4.5,
+        "preco_original": "R$ 4,50",
+        "categoria": "Bebidas",
+        "descricao": "Refrigerante Fanta em lata.",
+        "tags": [
+          "bebida_sem_alcool"
+        ]
+      }
+    ],
+    "problemas": [
+      {
+        "item": "Pasteizinhos",
+        "tipo": "preco_ausente",
+        "detalhe": "Não deu para ler um preço único em 'R$ 75,00 100 UNIDADES'."
+      },
+      {
+        "item": "Rissóles",
+        "tipo": "preco_ausente",
+        "detalhe": "Não deu para ler um preço único em 'R$ 75,00 100 UNIDADES'."
+      },
+      {
+        "item": "Enroladinho de Salsicha",
+        "tipo": "preco_ausente",
+        "detalhe": "Não deu para ler um preço único em 'R$ 75,00 100 UNIDADES'."
+      },
+      {
+        "item": "Croquete",
+        "tipo": "preco_ausente",
+        "detalhe": "Não deu para ler um preço único em 'R$ 75,00 100 UNIDADES'."
+      },
+      {
+        "item": "Beijinho",
+        "tipo": "preco_ausente",
+        "detalhe": "Não deu para ler um preço único em 'R$ 75,00 100 UNIDADES'."
+      },
+      {
+        "item": "Brigadeiro",
+        "tipo": "preco_ausente",
+        "detalhe": "Não deu para ler um preço único em 'R$ 75,00 100 UNIDADES'."
+      }
+    ],
+    "revisao_humana": true,
+    "enriquecido": true,
+    "tempos": {
+      "imagem": 0.04,
+      "extrator": 16.2,
+      "normalizador": 0.0,
+      "enriquecedor": 20.93,
+      "validador": 0.0,
+      "total": 37.17
+    }
+  }
+}

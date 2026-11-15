@@ -1,0 +1,62 @@
+{
+  "fonte": "Transcrito da foto com ajuda do Claude (modelo diferente do avaliado) e revisado à mão.",
+  "estabelecimento": null,
+  "tempo_manual_min": null,
+  "itens": [
+    {
+      "nome": "Bife com fritas",
+      "preco": 25,
+      "categoria": "Pratos principais"
+    },
+    {
+      "nome": "Costelinha suína com aipim",
+      "preco": 20,
+      "categoria": "Pratos principais"
+    },
+    {
+      "nome": "Frango com puré",
+      "preco": 16,
+      "categoria": "Pratos principais"
+    },
+    {
+      "nome": "Filé de peito empanado",
+      "preco": 16,
+      "categoria": "Pratos principais"
+    },
+    {
+      "nome": "Arroz",
+      "preco": null,
+      "categoria": "Acompanhamentos"
+    },
+    {
+      "nome": "Feijão",
+      "preco": null,
+      "categoria": "Acompanhamentos"
+    },
+    {
+      "nome": "Macarrão",
+      "preco": null,
+      "categoria": "Acompanhamentos"
+    },
+    {
+      "nome": "Farofa",
+      "preco": null,
+      "categoria": "Acompanhamentos"
+    },
+    {
+      "nome": "Saladas variadas",
+      "preco": null,
+      "categoria": "Acompanhamentos"
+    },
+    {
+      "nome": "Tortinha de maracujá",
+      "preco": 6,
+      "categoria": "Sobremesa"
+    },
+    {
+      "nome": "Suco natural (300 ml)",
+      "preco": 4,
+      "categoria": "Bebidas"
+    }
+  ]
+}

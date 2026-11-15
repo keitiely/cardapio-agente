@@ -1,0 +1,76 @@
+{
+  "modelo": "gemini-3.6-flash",
+  "cardapio": {
+    "estabelecimento": null,
+    "itens": [
+      {
+        "nome": "Bife com fritas",
+        "preco": 25.0,
+        "preco_original": "R$ 25,00",
+        "categoria": "Pratos Principais",
+        "descricao": "Bife acompanhado de batatas fritas.",
+        "tags": [
+          "frito"
+        ]
+      },
+      {
+        "nome": "Costelinha suína com aipim",
+        "preco": 20.0,
+        "preco_original": "R$ 20,00",
+        "categoria": "Pratos Principais",
+        "descricao": "Costelinha suína acompanhada de aipim.",
+        "tags": []
+      },
+      {
+        "nome": "Frango com puré",
+        "preco": 16.0,
+        "preco_original": "R$ 16,00",
+        "categoria": "Pratos Principais",
+        "descricao": "Frango acompanhado de purê.",
+        "tags": []
+      },
+      {
+        "nome": "Filé de peito empanado",
+        "preco": 16.0,
+        "preco_original": "16,00",
+        "categoria": "Pratos Principais",
+        "descricao": "Filé de peito de frango empanado.",
+        "tags": [
+          "frito"
+        ]
+      },
+      {
+        "nome": "Tortinha de maracujá",
+        "preco": 6.0,
+        "preco_original": "R$ 6,00",
+        "categoria": "Sobremesa",
+        "descricao": "Tortinha doce de maracujá.",
+        "tags": [
+          "doce"
+        ]
+      },
+      {
+        "nome": "Suco natural (300 ml) Acerola ou Limonada",
+        "preco": 4.0,
+        "preco_original": "R$ 4,00",
+        "categoria": "Bebidas",
+        "descricao": "Suco natural de acerola ou limonada de 300 ml.",
+        "tags": [
+          "bebida_sem_alcool",
+          "individual"
+        ]
+      }
+    ],
+    "problemas": [],
+    "revisao_humana": false,
+    "enriquecido": true,
+    "tempos": {
+      "imagem": 0.03,
+      "extrator": 37.39,
+      "normalizador": 0.0,
+      "enriquecedor": 2.38,
+      "validador": 0.0,
+      "total": 39.8
+    }
+  }
+}

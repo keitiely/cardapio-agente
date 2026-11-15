@@ -1,0 +1,112 @@
+{
+  "fonte": "Transcrito da foto com ajuda do Claude (modelo diferente do avaliado) e revisado à mão.",
+  "estabelecimento": null,
+  "tempo_manual_min": null,
+  "itens": [
+    {
+      "nome": "Coca Cola 350 ml + Clássico",
+      "preco": 15,
+      "categoria": "Combo"
+    },
+    {
+      "nome": "Coca Cola 2L + Dois Clássicos",
+      "preco": 30,
+      "categoria": "Combo"
+    },
+    {
+      "nome": "Dois Milkshake 500ml",
+      "preco": 18,
+      "categoria": "Combo"
+    },
+    {
+      "nome": "Feijoada",
+      "preco": 18,
+      "categoria": "Pratos"
+    },
+    {
+      "nome": "Espaguete",
+      "preco": 15,
+      "categoria": "Pratos"
+    },
+    {
+      "nome": "Estrogonhofe",
+      "preco": 15,
+      "categoria": "Pratos"
+    },
+    {
+      "nome": "Lasanha",
+      "preco": 16,
+      "categoria": "Pratos"
+    },
+    {
+      "nome": "Feijão Tropeiro",
+      "preco": 18,
+      "categoria": "Pratos"
+    },
+    {
+      "nome": "Clássico",
+      "preco": 13,
+      "categoria": "Pratos"
+    },
+    {
+      "nome": "Salada rústica",
+      "preco": 8.5,
+      "categoria": "Pratos"
+    },
+    {
+      "nome": "Batata Frita",
+      "preco": 10.5,
+      "categoria": "Pratos"
+    },
+    {
+      "nome": "Panqueca",
+      "preco": 15,
+      "categoria": "Pratos"
+    },
+    {
+      "nome": "Torta de frango",
+      "preco": 13.5,
+      "categoria": "Pratos"
+    },
+    {
+      "nome": "Coca Cola 350 ml",
+      "preco": 3.5,
+      "categoria": "Bebidas"
+    },
+    {
+      "nome": "Coca Cola 2L",
+      "preco": 8.7,
+      "categoria": "Bebidas"
+    },
+    {
+      "nome": "Guaraná Antarctica 350 ml",
+      "preco": 3.5,
+      "categoria": "Bebidas"
+    },
+    {
+      "nome": "Guaraná Antarctica 2L",
+      "preco": 7.5,
+      "categoria": "Bebidas"
+    },
+    {
+      "nome": "Suco Natural 300ml",
+      "preco": 8,
+      "categoria": "Bebidas"
+    },
+    {
+      "nome": "Pudim",
+      "preco": 7,
+      "categoria": "Sobremesas"
+    },
+    {
+      "nome": "Milkshake 300ml",
+      "preco": 7,
+      "categoria": "Sobremesas"
+    },
+    {
+      "nome": "Milkshake 500ml",
+      "preco": 10,
+      "categoria": "Sobremesas"
+    }
+  ]
+}

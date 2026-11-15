@@ -1,0 +1,187 @@
+{
+  "modelo": "gemini-3.6-flash",
+  "cardapio": {
+    "estabelecimento": null,
+    "itens": [
+      {
+        "nome": "Coca Cola 350 ml + Clássico",
+        "preco": 15.0,
+        "preco_original": "15,00",
+        "categoria": "Combo",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Coca Cola 2L + Dois Clássicos",
+        "preco": 30.0,
+        "preco_original": "30,00",
+        "categoria": "Combo",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Dois Milkshake 500ml",
+        "preco": 18.0,
+        "preco_original": "18,00",
+        "categoria": "Combo",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Feijoada",
+        "preco": 18.0,
+        "preco_original": "18,00",
+        "categoria": "Pratos",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Espaguete",
+        "preco": 15.0,
+        "preco_original": "15,00",
+        "categoria": "Pratos",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Estrogonhofe",
+        "preco": 15.0,
+        "preco_original": "15,00",
+        "categoria": "Pratos",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Lasanha",
+        "preco": 16.0,
+        "preco_original": "16,00",
+        "categoria": "Pratos",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Feijão Tropeiro",
+        "preco": 18.0,
+        "preco_original": "18,00",
+        "categoria": "Pratos",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Clássico",
+        "preco": 13.0,
+        "preco_original": "13,00",
+        "categoria": "Pratos",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Salada rústica",
+        "preco": 8.5,
+        "preco_original": "8,50",
+        "categoria": "Pratos",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Batata Frita",
+        "preco": 10.5,
+        "preco_original": "10,50",
+        "categoria": "Pratos",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Panqueca",
+        "preco": 15.0,
+        "preco_original": "15,00",
+        "categoria": "Pratos",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Torta de frango",
+        "preco": 13.5,
+        "preco_original": "13,50",
+        "categoria": "Pratos",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Coca Cola 350 ml",
+        "preco": 3.5,
+        "preco_original": "3,50",
+        "categoria": "Bebidas",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Coca Cola 2L",
+        "preco": 8.7,
+        "preco_original": "8,70",
+        "categoria": "Bebidas",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Guaraná Antarctica 350 ml",
+        "preco": 3.5,
+        "preco_original": "3,50",
+        "categoria": "Bebidas",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Guaraná Antarctica 2L",
+        "preco": 7.5,
+        "preco_original": "7,50",
+        "categoria": "Bebidas",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Suco Natural 300ml",
+        "preco": 8.0,
+        "preco_original": "8,00",
+        "categoria": "Bebidas",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Pudim",
+        "preco": 7.0,
+        "preco_original": "7,00",
+        "categoria": "Sobremesas",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Milkshake 300ml",
+        "preco": 7.0,
+        "preco_original": "7,00",
+        "categoria": "Sobremesas",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Milkshake 500ml",
+        "preco": 10.0,
+        "preco_original": "10,00",
+        "categoria": "Sobremesas",
+        "descricao": null,
+        "tags": []
+      }
+    ],
+    "problemas": [],
+    "revisao_humana": false,
+    "enriquecido": false,
+    "tempos": {
+      "imagem": 0.01,
+      "extrator": 5.21,
+      "normalizador": 0.0,
+      "enriquecedor": 7.65,
+      "validador": 0.0,
+      "total": 12.87
+    }
+  }
+}

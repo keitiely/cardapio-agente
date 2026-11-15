@@ -1,0 +1,155 @@
+{
+  "modelo": "gemini-3.6-flash",
+  "cardapio": {
+    "estabelecimento": "abrahão",
+    "itens": [
+      {
+        "nome": "Fritas",
+        "preco": 25.9,
+        "preco_original": "25,90",
+        "categoria": "Entradas",
+        "descricao": "Porção de batata palito frita, bem sequinha e crocante",
+        "tags": []
+      },
+      {
+        "nome": "Dadinho de tapioca",
+        "preco": 29.9,
+        "preco_original": "29,90",
+        "categoria": "Entradas",
+        "descricao": "Servido com geleia de pimenta especial, feita aqui",
+        "tags": []
+      },
+      {
+        "nome": "Torresmo",
+        "preco": 14.9,
+        "preco_original": "14,90",
+        "categoria": "Entradas",
+        "descricao": "Individual, pra comer com a feijoada (ou não)!",
+        "tags": []
+      },
+      {
+        "nome": "Saladinha",
+        "preco": 14.9,
+        "preco_original": "14,90",
+        "categoria": "Entradas",
+        "descricao": "Porção individual de salada, com folhas frescas e tomate-cereja",
+        "tags": []
+      },
+      {
+        "nome": "Brigadeiro de colher",
+        "preco": 19.9,
+        "preco_original": "19,90",
+        "categoria": "Sobremesas",
+        "descricao": "O nome já diz tudo! Feito aqui",
+        "tags": []
+      },
+      {
+        "nome": "Merengue",
+        "preco": 22.9,
+        "preco_original": "22,90",
+        "categoria": "Sobremesas",
+        "descricao": "Morango, suspiros e chantilly servidos em taça",
+        "tags": []
+      },
+      {
+        "nome": "Pudim",
+        "preco": 15.9,
+        "preco_original": "15,90",
+        "categoria": "Sobremesas",
+        "descricao": "Sem furinhos, tá? Também feito na casa",
+        "tags": []
+      },
+      {
+        "nome": "Frutas da estação",
+        "preco": 9.9,
+        "preco_original": "9,90",
+        "categoria": "Sobremesas",
+        "descricao": "Fatiadas, sem caroço e casca, servidas num pratinho",
+        "tags": []
+      },
+      {
+        "nome": "Bife à cavalo",
+        "preco": 58.9,
+        "preco_original": "58,90",
+        "categoria": "Pratos principais",
+        "descricao": "Filé mignon grelhado, arroz, feijão, farofa e ovo",
+        "tags": []
+      },
+      {
+        "nome": "Frango grelhado",
+        "preco": 38.9,
+        "preco_original": "38,90",
+        "categoria": "Pratos principais",
+        "descricao": "Frango grelhado, arroz, feijão, farofa e salada",
+        "tags": []
+      },
+      {
+        "nome": "Peixe do dia com legumes",
+        "preco": 55.9,
+        "preco_original": "55,90",
+        "categoria": "Pratos principais",
+        "descricao": "Posta de peixe do dia, arroz e legumes no vapor",
+        "tags": []
+      },
+      {
+        "nome": "Omelete",
+        "preco": 29.9,
+        "preco_original": "29,90",
+        "categoria": "Pratos principais",
+        "descricao": "Omelete caprichado, arroz, feijão e farofa",
+        "tags": []
+      },
+      {
+        "nome": "Refrigerante",
+        "preco": 5.9,
+        "preco_original": "5,90",
+        "categoria": "Bebidas",
+        "descricao": "lata 350 ml",
+        "tags": []
+      },
+      {
+        "nome": "Água",
+        "preco": 3.9,
+        "preco_original": "3,90",
+        "categoria": "Bebidas",
+        "descricao": "garrafa 500 ml com ou sem gás",
+        "tags": []
+      },
+      {
+        "nome": "Cerveja",
+        "preco": 9.9,
+        "preco_original": "9,90",
+        "categoria": "Bebidas",
+        "descricao": "garrafa 300 ml",
+        "tags": []
+      },
+      {
+        "nome": "Vinho da casa",
+        "preco": 24.9,
+        "preco_original": "24,90",
+        "categoria": "Bebidas",
+        "descricao": "taça 150 ml, tinto ou branco",
+        "tags": []
+      },
+      {
+        "nome": "Gin tônica",
+        "preco": 31.9,
+        "preco_original": "31,90",
+        "categoria": "Bebidas",
+        "descricao": "gin nacional, água tônica e especiarias",
+        "tags": []
+      }
+    ],
+    "problemas": [],
+    "revisao_humana": false,
+    "enriquecido": false,
+    "tempos": {
+      "imagem": 0.01,
+      "extrator": 10.47,
+      "normalizador": 0.0,
+      "enriquecedor": 19.26,
+      "validador": 0.0,
+      "total": 29.74
+    }
+  }
+}

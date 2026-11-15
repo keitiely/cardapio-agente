@@ -1,0 +1,93 @@
+{
+  "n_cardapios": 6,
+  "modelo": "gemini-3.6-flash",
+  "medias": {
+    "Cobertura": 0.909,
+    "Precisão": 0.972,
+    "Preço certo": 0.945,
+    "Categoria certa": 1.0,
+    "Tempo agente (s)": 31.773,
+    "Tempo manual (min)": 13.067
+  },
+  "por_cardapio": [
+    {
+      "Cardápio": "caseiro",
+      "Itens (gabarito)": 17,
+      "Cobertura": 1.0,
+      "Precisão": 1.0,
+      "Preço certo": 1.0,
+      "Categoria certa": 1.0,
+      "Revisão humana": "não",
+      "Tempo agente (s)": 29.74,
+      "Tempo manual (min)": 13.2,
+      "Faltaram": "",
+      "Sobraram": ""
+    },
+    {
+      "Cardápio": "doces",
+      "Itens (gabarito)": 25,
+      "Cobertura": 1.0,
+      "Precisão": 1.0,
+      "Preço certo": 1.0,
+      "Categoria certa": 1.0,
+      "Revisão humana": "sim",
+      "Tempo agente (s)": 64.72,
+      "Tempo manual (min)": 19.4,
+      "Faltaram": "",
+      "Sobraram": ""
+    },
+    {
+      "Cardápio": "restaurante",
+      "Itens (gabarito)": 21,
+      "Cobertura": 1.0,
+      "Precisão": 1.0,
+      "Preço certo": 1.0,
+      "Categoria certa": 1.0,
+      "Revisão humana": "não",
+      "Tempo agente (s)": 12.87,
+      "Tempo manual (min)": 16.3,
+      "Faltaram": "",
+      "Sobraram": ""
+    },
+    {
+      "Cardápio": "salgados",
+      "Itens (gabarito)": 18,
+      "Cobertura": 1.0,
+      "Precisão": 1.0,
+      "Preço certo": 0.667,
+      "Categoria certa": 1.0,
+      "Revisão humana": "sim",
+      "Tempo agente (s)": 37.17,
+      "Tempo manual (min)": 14.0,
+      "Faltaram": "",
+      "Sobraram": ""
+    },
+    {
+      "Cardápio": "self-service",
+      "Itens (gabarito)": 11,
+      "Cobertura": 0.455,
+      "Precisão": 0.833,
+      "Preço certo": 1.0,
+      "Categoria certa": 1.0,
+      "Revisão humana": "não",
+      "Tempo agente (s)": 39.8,
+      "Tempo manual (min)": 8.5,
+      "Faltaram": "Arroz, Feijão, Macarrão, Farofa, Saladas variadas, Suco natural (300 ml)",
+      "Sobraram": "Suco natural (300 ml) Acerola ou Limonada"
+    },
+    {
+      "Cardápio": "tapiocas",
+      "Itens (gabarito)": 9,
+      "Cobertura": 1.0,
+      "Precisão": 1.0,
+      "Preço certo": 1.0,
+      "Categoria certa": 1.0,
+      "Revisão humana": "não",
+      "Tempo agente (s)": 6.34,
+      "Tempo manual (min)": 7.0,
+      "Faltaram": "",
+      "Sobraram": ""
+    }
+  ],
+  "nota_tempo_manual": "Tempo manual estimado: 47 s por item, medidos digitando 5 itens à mão, multiplicados pelo número de itens de cada cardápio."
+}

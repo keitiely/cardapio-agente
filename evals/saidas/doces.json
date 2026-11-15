@@ -1,0 +1,245 @@
+{
+  "modelo": "gemini-3.6-flash",
+  "cardapio": {
+    "estabelecimento": "Confeitaria Janara Valença",
+    "itens": [
+      {
+        "nome": "Chocolate",
+        "preco": 12.0,
+        "preco_original": "R$12",
+        "categoria": "Bolo de Pote 200g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Chocolate c/ morango",
+        "preco": 12.0,
+        "preco_original": "R$12",
+        "categoria": "Bolo de Pote 200g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Ninho c/ morango",
+        "preco": 12.0,
+        "preco_original": "R$12",
+        "categoria": "Bolo de Pote 200g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Maracujá",
+        "preco": 12.0,
+        "preco_original": "R$12",
+        "categoria": "Bolo de Pote 200g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Morango",
+        "preco": 12.0,
+        "preco_original": "R$12",
+        "categoria": "Bolo de Pote 200g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Morango c/ nutella",
+        "preco": 12.0,
+        "preco_original": "R$12",
+        "categoria": "Bolo de Pote 200g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Abacaxi",
+        "preco": 12.0,
+        "preco_original": "R$12",
+        "categoria": "Bolo de Pote 200g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Cenoura c/ brigadeiro",
+        "preco": 12.0,
+        "preco_original": "R$12",
+        "categoria": "Bolo de Pote 200g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Cacau",
+        "preco": 8.0,
+        "preco_original": "R$8",
+        "categoria": "Brownies",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Café",
+        "preco": 8.0,
+        "preco_original": "R$8",
+        "categoria": "Brownies",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Castanha",
+        "preco": 8.0,
+        "preco_original": "R$8",
+        "categoria": "Brownies",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Brigadeiro",
+        "preco": 8.0,
+        "preco_original": "R$8",
+        "categoria": "Brownies",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Chocolate c/ ninho",
+        "preco": 60.0,
+        "preco_original": "R$60",
+        "categoria": "Bolos 25 Cm 500g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Chocolate c/ morango",
+        "preco": 40.0,
+        "preco_original": "R$40",
+        "categoria": "Bolos 25 Cm 500g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Ninho c/ morango",
+        "preco": 50.0,
+        "preco_original": "R$50",
+        "categoria": "Bolos 25 Cm 500g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Morango c/nutella",
+        "preco": 60.0,
+        "preco_original": "R$60",
+        "categoria": "Bolos 25 Cm 500g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Morango c/ nutella",
+        "preco": 40.0,
+        "preco_original": "R$40",
+        "categoria": "Bolos 25 Cm 500g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Coce c/chocolate",
+        "preco": 50.0,
+        "preco_original": "R$50",
+        "categoria": "Bolos 25 Cm 500g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Cenoura c/ brigadeiro",
+        "preco": 40.0,
+        "preco_original": "R$40",
+        "categoria": "Bolos 25 Cm 500g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Laranja c/ ninho",
+        "preco": 50.0,
+        "preco_original": "R$50",
+        "categoria": "Bolos 25 Cm 500g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Aipim e coco",
+        "preco": 60.0,
+        "preco_original": "R$60",
+        "categoria": "Bolos 25 Cm 500g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Baunilha",
+        "preco": 40.0,
+        "preco_original": "R$40",
+        "categoria": "Bolos 25 Cm 500g",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Banana",
+        "preco": 16.0,
+        "preco_original": "R$16",
+        "categoria": "Cucas",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Goiabada",
+        "preco": 16.0,
+        "preco_original": "R$16",
+        "categoria": "Cucas",
+        "descricao": null,
+        "tags": []
+      },
+      {
+        "nome": "Chocolate",
+        "preco": 16.0,
+        "preco_original": "R$16",
+        "categoria": "Cucas",
+        "descricao": null,
+        "tags": []
+      }
+    ],
+    "problemas": [
+      {
+        "item": "Chocolate",
+        "tipo": "nome_repetido",
+        "detalhe": "Aparece 2 vezes com preços diferentes."
+      },
+      {
+        "item": "Chocolate c/ morango",
+        "tipo": "nome_repetido",
+        "detalhe": "Aparece 2 vezes com preços diferentes."
+      },
+      {
+        "item": "Ninho c/ morango",
+        "tipo": "nome_repetido",
+        "detalhe": "Aparece 2 vezes com preços diferentes."
+      },
+      {
+        "item": "Morango c/ nutella",
+        "tipo": "nome_repetido",
+        "detalhe": "Aparece 2 vezes com preços diferentes."
+      },
+      {
+        "item": "Cenoura c/ brigadeiro",
+        "tipo": "nome_repetido",
+        "detalhe": "Aparece 2 vezes com preços diferentes."
+      }
+    ],
+    "revisao_humana": true,
+    "enriquecido": false,
+    "tempos": {
+      "imagem": 0.01,
+      "extrator": 5.04,
+      "normalizador": 0.0,
+      "enriquecedor": 59.67,
+      "validador": 0.0,
+      "total": 64.72
+    }
+  }
+}

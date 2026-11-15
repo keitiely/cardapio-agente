@@ -1,0 +1,52 @@
+{
+  "fonte": "Transcrito da foto com ajuda do Claude (modelo diferente do avaliado) e revisado à mão.",
+  "estabelecimento": null,
+  "tempo_manual_min": null,
+  "itens": [
+    {
+      "nome": "Carne de sol desfiado, frango, queijo e presunto",
+      "preco": 25,
+      "categoria": "Tapiocas Salgadas"
+    },
+    {
+      "nome": "Carne de sol com queijo ou requeijão",
+      "preco": 25,
+      "categoria": "Tapiocas Salgadas"
+    },
+    {
+      "nome": "Frango com queijo ou requeijão",
+      "preco": 25,
+      "categoria": "Tapiocas Salgadas"
+    },
+    {
+      "nome": "Linguiça defumada",
+      "preco": 25,
+      "categoria": "Tapiocas Salgadas"
+    },
+    {
+      "nome": "Coco com leite condensado",
+      "preco": 25,
+      "categoria": "Tapiocas Doces"
+    },
+    {
+      "nome": "Queijo com goiabada",
+      "preco": 25,
+      "categoria": "Tapiocas Doces"
+    },
+    {
+      "nome": "Refrigerante",
+      "preco": 8,
+      "categoria": "Bebidas"
+    },
+    {
+      "nome": "Água",
+      "preco": 5,
+      "categoria": "Bebidas"
+    },
+    {
+      "nome": "Água com gás",
+      "preco": 6,
+      "categoria": "Bebidas"
+    }
+  ]
+}

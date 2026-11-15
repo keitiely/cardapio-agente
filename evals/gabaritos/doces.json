@@ -1,0 +1,132 @@
+{
+  "fonte": "Transcrito da foto com ajuda do Claude (modelo diferente do avaliado) e revisado à mão.",
+  "estabelecimento": "Confeitaria Janara Valença",
+  "tempo_manual_min": null,
+  "itens": [
+    {
+      "nome": "Chocolate",
+      "preco": 12,
+      "categoria": "Bolo de Pote"
+    },
+    {
+      "nome": "Chocolate c/ morango",
+      "preco": 12,
+      "categoria": "Bolo de Pote"
+    },
+    {
+      "nome": "Ninho c/ morango",
+      "preco": 12,
+      "categoria": "Bolo de Pote"
+    },
+    {
+      "nome": "Maracujá",
+      "preco": 12,
+      "categoria": "Bolo de Pote"
+    },
+    {
+      "nome": "Morango",
+      "preco": 12,
+      "categoria": "Bolo de Pote"
+    },
+    {
+      "nome": "Morango c/ nutella",
+      "preco": 12,
+      "categoria": "Bolo de Pote"
+    },
+    {
+      "nome": "Abacaxi",
+      "preco": 12,
+      "categoria": "Bolo de Pote"
+    },
+    {
+      "nome": "Cenoura c/ brigadeiro",
+      "preco": 12,
+      "categoria": "Bolo de Pote"
+    },
+    {
+      "nome": "Cacau",
+      "preco": 8,
+      "categoria": "Brownies"
+    },
+    {
+      "nome": "Café",
+      "preco": 8,
+      "categoria": "Brownies"
+    },
+    {
+      "nome": "Castanha",
+      "preco": 8,
+      "categoria": "Brownies"
+    },
+    {
+      "nome": "Brigadeiro",
+      "preco": 8,
+      "categoria": "Brownies"
+    },
+    {
+      "nome": "Chocolate c/ ninho",
+      "preco": 60,
+      "categoria": "Bolos 25 cm"
+    },
+    {
+      "nome": "Chocolate c/ morango",
+      "preco": 40,
+      "categoria": "Bolos 25 cm"
+    },
+    {
+      "nome": "Ninho c/ morango",
+      "preco": 50,
+      "categoria": "Bolos 25 cm"
+    },
+    {
+      "nome": "Morango c/nutella",
+      "preco": 60,
+      "categoria": "Bolos 25 cm"
+    },
+    {
+      "nome": "Morango c/ nutella",
+      "preco": 40,
+      "categoria": "Bolos 25 cm"
+    },
+    {
+      "nome": "Coce c/chocolate",
+      "preco": 50,
+      "categoria": "Bolos 25 cm"
+    },
+    {
+      "nome": "Cenoura c/ brigadeiro",
+      "preco": 40,
+      "categoria": "Bolos 25 cm"
+    },
+    {
+      "nome": "Laranja c/ ninho",
+      "preco": 50,
+      "categoria": "Bolos 25 cm"
+    },
+    {
+      "nome": "Aipim e coco",
+      "preco": 60,
+      "categoria": "Bolos 25 cm"
+    },
+    {
+      "nome": "Baunilha",
+      "preco": 40,
+      "categoria": "Bolos 25 cm"
+    },
+    {
+      "nome": "Banana",
+      "preco": 16,
+      "categoria": "Cucas"
+    },
+    {
+      "nome": "Goiabada",
+      "preco": 16,
+      "categoria": "Cucas"
+    },
+    {
+      "nome": "Chocolate",
+      "preco": 16,
+      "categoria": "Cucas"
+    }
+  ]
+}
