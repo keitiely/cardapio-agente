@@ -25,6 +25,7 @@ FOTOS = PASTA / "fotos"
 GABARITOS = PASTA / "gabaritos"
 SAIDAS = PASTA / "saidas"
 RELATORIO = SAIDAS / "relatorio.json"
+MEDICAO_MANUAL = PASTA / "medicao_manual.json"
 EXTENSOES = (".jpg", ".jpeg", ".png", ".webp")
 
 
@@ -66,6 +67,18 @@ def main() -> int:
         print("Nenhum caso: coloque fotos em evals/fotos/ e gabaritos com o mesmo nome em evals/gabaritos/.")
         return 1
 
+    # Tempo manual: o do gabarito, se foi cronometrado inteiro; senão, estimado
+    # pela amostra cronometrada (segundos por item × itens do cardápio).
+    segundos_por_item = None
+    nota_tempo_manual = None
+    if MEDICAO_MANUAL.exists():
+        medicao = json.loads(MEDICAO_MANUAL.read_text(encoding="utf-8"))
+        segundos_por_item = medicao["segundos"] / medicao["itens_digitados"]
+        nota_tempo_manual = (
+            f"Tempo manual estimado: {segundos_por_item:.0f} s por item, medidos digitando "
+            f"{medicao['itens_digitados']} itens à mão, multiplicados pelo número de itens de cada cardápio."
+        )
+
     cliente = None
     linhas = []
     modelos = set()
@@ -83,6 +96,9 @@ def main() -> int:
 
         gabarito = json.loads(arq_gabarito.read_text(encoding="utf-8"))
         m = avaliar(gabarito, saida)
+        tempo_manual = gabarito.get("tempo_manual_min")
+        if tempo_manual is None and segundos_por_item:
+            tempo_manual = round(segundos_por_item * m["itens_gabarito"] / 60, 1)
         linhas.append({
             "Cardápio": nome,
             "Itens (gabarito)": m["itens_gabarito"],
@@ -92,7 +108,7 @@ def main() -> int:
             "Categoria certa": m["categoria_certa"],
             "Revisão humana": "sim" if saida.revisao_humana else "não",
             "Tempo agente (s)": saida.tempos.get("total"),
-            "Tempo manual (min)": gabarito.get("tempo_manual_min"),
+            "Tempo manual (min)": tempo_manual,
             "Faltaram": ", ".join(m["faltaram"]),
             "Sobraram": ", ".join(m["sobraram"]),
         })
@@ -121,6 +137,8 @@ def main() -> int:
         "medias": {k: v for k, v in medias.items() if v is not None},
         "por_cardapio": linhas,
     }
+    if nota_tempo_manual:
+        relatorio["nota_tempo_manual"] = nota_tempo_manual
     RELATORIO.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print("\nMédias:")

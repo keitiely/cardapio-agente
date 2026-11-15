@@ -1,0 +1,25 @@
+{
+  "fonte": "Transcrito da foto com ajuda do Claude (modelo diferente do avaliado) e revisado à mão.",
+  "estabelecimento": "Expresso Doces & Salgados",
+  "tempo_manual_min": null,
+  "itens": [
+    {"nome": "Pastel", "preco": 13.00, "categoria": "Salgados"},
+    {"nome": "Pastel Especial", "preco": 15.00, "categoria": "Salgados"},
+    {"nome": "Coxinha", "preco": 7.00, "categoria": "Salgados"},
+    {"nome": "Pasteizinhos", "preco": 75.00, "categoria": "Salgados"},
+    {"nome": "Rissóles", "preco": 75.00, "categoria": "Salgados"},
+    {"nome": "Enroladinho de Salsicha", "preco": 75.00, "categoria": "Salgados"},
+    {"nome": "Croquete", "preco": 75.00, "categoria": "Salgados"},
+    {"nome": "Beijinho", "preco": 75.00, "categoria": "Doces"},
+    {"nome": "Brigadeiro", "preco": 75.00, "categoria": "Doces"},
+    {"nome": "Combo 1", "preco": 8.00, "categoria": "Combos"},
+    {"nome": "Combo 2", "preco": 15.00, "categoria": "Combos"},
+    {"nome": "Combo Salgados P", "preco": 15.00, "categoria": "Combos"},
+    {"nome": "Combo Salgados M", "preco": 20.00, "categoria": "Combos"},
+    {"nome": "Combo Salgados G", "preco": 25.00, "categoria": "Combos"},
+    {"nome": "Coca Lata 350ml", "preco": 5.00, "categoria": "Bebidas"},
+    {"nome": "Coca 200ml", "preco": 2.50, "categoria": "Bebidas"},
+    {"nome": "Coca Lata Zero 310ml", "preco": 4.00, "categoria": "Bebidas"},
+    {"nome": "Fanta Lata", "preco": 4.50, "categoria": "Bebidas"}
+  ]
+}

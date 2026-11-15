@@ -1,0 +1,109 @@
+{
+  "modelo": "gemini-3.6-flash",
+  "cardapio": {
+    "estabelecimento": null,
+    "itens": [
+      {
+        "nome": "Carne de sol desfiado, frango, queijo e presunto",
+        "preco": 25.0,
+        "preco_original": "R$ 25,00",
+        "categoria": "Tapiocas Salgadas",
+        "descricao": "Tapioca salgada recheada com carne de sol desfiada, frango, queijo e presunto.",
+        "tags": [
+          "contem_lactose"
+        ]
+      },
+      {
+        "nome": "Carne de sol com queijo ou requeijão",
+        "preco": 25.0,
+        "preco_original": "R$ 25,00",
+        "categoria": "Tapiocas Salgadas",
+        "descricao": "Tapioca salgada recheada com carne de sol e queijo ou requeijão.",
+        "tags": [
+          "contem_lactose"
+        ]
+      },
+      {
+        "nome": "Frango com queijo ou requeijão",
+        "preco": 25.0,
+        "preco_original": "R$ 25,00",
+        "categoria": "Tapiocas Salgadas",
+        "descricao": "Tapioca salgada recheada com frango e queijo ou requeijão.",
+        "tags": [
+          "contem_lactose"
+        ]
+      },
+      {
+        "nome": "Linguiça defumada",
+        "preco": 25.0,
+        "preco_original": "R$ 25,00",
+        "categoria": "Tapiocas Salgadas",
+        "descricao": "Tapioca salgada recheada com linguiça defumada.",
+        "tags": []
+      },
+      {
+        "nome": "Coco com leite condensado",
+        "preco": 25.0,
+        "preco_original": "R$ 25,00",
+        "categoria": "Tapiocas Doces",
+        "descricao": "Tapioca doce recheada com coco e leite condensado.",
+        "tags": [
+          "doce",
+          "contem_lactose"
+        ]
+      },
+      {
+        "nome": "Queijo com goiabada",
+        "preco": 25.0,
+        "preco_original": "R$ 25,00",
+        "categoria": "Tapiocas Doces",
+        "descricao": "Tapioca doce recheada com queijo e goiabada.",
+        "tags": [
+          "doce",
+          "contem_lactose"
+        ]
+      },
+      {
+        "nome": "Refrigerante",
+        "preco": 8.0,
+        "preco_original": "R$ 8,00",
+        "categoria": "Bebidas",
+        "descricao": "Bebida refrigerante.",
+        "tags": [
+          "bebida_sem_alcool"
+        ]
+      },
+      {
+        "nome": "Água",
+        "preco": 5.0,
+        "preco_original": "R$ 5,00",
+        "categoria": "Bebidas",
+        "descricao": "Bebida água.",
+        "tags": [
+          "bebida_sem_alcool"
+        ]
+      },
+      {
+        "nome": "Água com gás",
+        "preco": 6.0,
+        "preco_original": "R$ 6,00",
+        "categoria": "Bebidas",
+        "descricao": "Bebida água com gás.",
+        "tags": [
+          "bebida_sem_alcool"
+        ]
+      }
+    ],
+    "problemas": [],
+    "revisao_humana": false,
+    "enriquecido": true,
+    "tempos": {
+      "imagem": 0.03,
+      "extrator": 3.6,
+      "normalizador": 0.0,
+      "enriquecedor": 2.71,
+      "validador": 0.0,
+      "total": 6.34
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "fonte": "Transcrito da foto com ajuda do Claude (modelo diferente do avaliado) e revisado à mão.",
+  "estabelecimento": null,
+  "tempo_manual_min": null,
+  "itens": [
+    {"nome": "Fritas", "preco": 25.90, "categoria": "Entradas"},
+    {"nome": "Dadinho de tapioca", "preco": 29.90, "categoria": "Entradas"},
+    {"nome": "Torresmo", "preco": 14.90, "categoria": "Entradas"},
+    {"nome": "Saladinha", "preco": 14.90, "categoria": "Entradas"},
+    {"nome": "Bife à cavalo", "preco": 58.90, "categoria": "Pratos principais"},
+    {"nome": "Frango grelhado", "preco": 38.90, "categoria": "Pratos principais"},
+    {"nome": "Peixe do dia com legumes", "preco": 55.90, "categoria": "Pratos principais"},
+    {"nome": "Omelete", "preco": 29.90, "categoria": "Pratos principais"},
+    {"nome": "Brigadeiro de colher", "preco": 19.90, "categoria": "Sobremesas"},
+    {"nome": "Merengue", "preco": 22.90, "categoria": "Sobremesas"},
+    {"nome": "Pudim", "preco": 15.90, "categoria": "Sobremesas"},
+    {"nome": "Frutas da estação", "preco": 9.90, "categoria": "Sobremesas"},
+    {"nome": "Refrigerante", "preco": 5.90, "categoria": "Bebidas"},
+    {"nome": "Água", "preco": 3.90, "categoria": "Bebidas"},
+    {"nome": "Cerveja", "preco": 9.90, "categoria": "Bebidas"},
+    {"nome": "Vinho da casa", "preco": 24.90, "categoria": "Bebidas"},
+    {"nome": "Gin tônica", "preco": 31.90, "categoria": "Bebidas"}
+  ]
+}

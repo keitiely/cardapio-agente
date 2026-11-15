@@ -49,13 +49,19 @@ def normalizar_texto(texto: str | None) -> str:
     if not texto:
         return ""
     limpo = " ".join(texto.split()).strip(" .-–—:_·*")
-    if limpo.isupper():
+    if _em_caixa_alta(limpo):
         palavras = limpo.lower().split(" ")
         limpo = " ".join(
             p if (i > 0 and p in _PALAVRAS_MINUSCULAS) else _maiuscula(p)
             for i, p in enumerate(palavras)
         )
     return limpo
+
+
+def _em_caixa_alta(texto: str) -> bool:
+    """Quase tudo em maiúsculas. Aceita unidades em minúsculas: 'COCA LATA 350ml', 'CUCAS uni'."""
+    letras = [c for c in texto if c.isalpha()]
+    return bool(letras) and sum(c.isupper() for c in letras) / len(letras) >= 0.6
 
 
 def _maiuscula(palavra: str) -> str:

@@ -35,6 +35,9 @@ def test_preco_ausente_ou_multiplo_vira_none(texto):
     ("  Pudim   de  leite ", "Pudim de leite"),   # só mexe na caixa se estiver TODO em maiúsculas
     ("COCA-COLA 350ML", "Coca-Cola 350ml"),
     ("A FEIJOADA", "A Feijoada"),          # palavra pequena no começo fica maiúscula
+    ("COCA LATA 350ml", "Coca Lata 350ml"),  # unidade em minúsculas não impede o ajuste
+    ("BOLO DE POTE 200g", "Bolo de Pote 200g"),
+    ("Coca-Cola 350ML", "Coca-Cola 350ML"),  # texto normal não é mexido
 ])
 def test_normalizar_texto(texto, esperado):
     assert normalizar_texto(texto) == esperado
