@@ -51,14 +51,19 @@ def _memoria_global() -> dict:
 
 
 def carregar_exemplos() -> dict[str, tuple[Path, Cardapio]]:
-    """Cada exemplo é um par: foto (exemplos/nome.jpg) + saída pronta (exemplos/nome.json)."""
-    exemplos = {}
-    for saida in sorted(PASTA_EXEMPLOS.glob("*.json")):
+    """Cada exemplo é um par: foto (exemplos/nome.jpg) + saída pronta (exemplos/nome.json).
+
+    Ordem: primeiro os cardápios sem problemas, por último os que vão para revisão
+    humana. Assim a demo abre num resultado limpo e mostra a revisão depois.
+    """
+    exemplos = []
+    for saida in PASTA_EXEMPLOS.glob("*.json"):
         fotos = [saida.with_suffix(ext) for ext in EXTENSOES_FOTO if saida.with_suffix(ext).exists()]
         if fotos:
             nome = saida.stem.replace("_", " ").replace("-", " ").title()
-            exemplos[nome] = (fotos[0], Cardapio.model_validate_json(saida.read_text(encoding="utf-8")))
-    return exemplos
+            cardapio = Cardapio.model_validate_json(saida.read_text(encoding="utf-8"))
+            exemplos.append((len(cardapio.problemas), -len(cardapio.itens), nome, fotos[0], cardapio))
+    return {nome: (foto, cardapio) for *_, nome, foto, cardapio in sorted(exemplos, key=lambda e: e[:3])}
 
 
 def processar_foto(foto: bytes) -> tuple[Cardapio, str]:
