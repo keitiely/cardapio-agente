@@ -164,7 +164,8 @@ def aba_demo():
 
     exemplos = carregar_exemplos()
     opcoes = ["Enviar minha foto"] + list(exemplos)
-    escolha = st.radio("Origem", opcoes, horizontal=True, label_visibility="collapsed")
+    # Abre num exemplo pronto: o visitante vê um resultado na hora, sem gastar cota.
+    escolha = st.radio("Origem", opcoes, index=1 if exemplos else 0, horizontal=True, label_visibility="collapsed")
 
     if escolha != "Enviar minha foto":
         foto, cardapio = exemplos[escolha]
