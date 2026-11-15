@@ -7,7 +7,8 @@ Proteções da cota gratuita:
 - exemplos prontos (pasta exemplos/) não gastam nenhuma chamada;
 - a mesma foto enviada duas vezes reaproveita o resultado;
 - cada visitante pode processar até 5 fotos novas por sessão;
-- o app inteiro para em 100 fotos novas por dia.
+- o app inteiro para em 15 fotos novas por dia (a camada gratuita do Gemini
+  dá cerca de 20 chamadas por dia por modelo, e cada foto usa 2).
 """
 
 import hashlib
@@ -27,7 +28,7 @@ PASTA_EXEMPLOS = RAIZ / "exemplos"
 RELATORIO_EVALS = RAIZ / "evals" / "saidas" / "relatorio.json"
 
 LIMITE_POR_VISITANTE = 5
-LIMITE_POR_DIA = 100
+LIMITE_POR_DIA = 15
 EXTENSOES_FOTO = (".jpg", ".jpeg", ".png", ".webp")
 
 NOMES_PROBLEMAS = {
@@ -214,6 +215,8 @@ def aba_resultados():
             coluna.metric(nome, f"{valor:.0%}" if isinstance(valor, float) and valor <= 1 else valor)
     if relatorio.get("por_cardapio"):
         st.dataframe(pd.DataFrame(relatorio["por_cardapio"]), width="stretch", hide_index=True)
+    if relatorio.get("nota_tempo_manual"):
+        st.caption(relatorio["nota_tempo_manual"])
 
 
 def aba_como_funciona():

@@ -51,6 +51,18 @@ def test_preco_e_categoria_errados():
     assert m["categoria_certa"] == 0.0
 
 
+def test_categoria_com_complemento_conta_como_certa():
+    m = avaliar({"itens": [{"nome": "Morango", "preco": 12.0, "categoria": "Bolo de Pote"}]},
+                _saida(("Morango", 12.0, "Bolo de Pote 200g")))
+    assert m["categoria_certa"] == 1.0
+
+
+def test_categoria_parecida_mas_diferente_conta_como_errada():
+    m = avaliar({"itens": [{"nome": "Bolo", "preco": 40.0, "categoria": "Bolos"}]},
+                _saida(("Bolo", 40.0, "Bolo de Pote")))
+    assert m["categoria_certa"] == 0.0
+
+
 def test_categoria_ausente_no_gabarito_vale_outros():
     m = avaliar({"itens": [{"nome": "Café", "preco": 5.0}]}, _saida(("Café", 5.0, "Outros")))
     assert m["categoria_certa"] == 1.0

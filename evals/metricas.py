@@ -8,7 +8,8 @@ Métricas de um cardápio:
 - cobertura: dos itens do gabarito, quantos o sistema encontrou
 - precisao: dos itens que o sistema devolveu, quantos existem no gabarito
 - preco_certo: entre os pares, quantos têm o preço exato (null com null conta como certo)
-- categoria_certa: entre os pares, quantos têm a mesma categoria
+- categoria_certa: entre os pares, quantos têm a mesma categoria (aceita complemento
+  no fim do título da seção, como peso ou unidade: 'Bolo de Pote' = 'Bolo de Pote 200g')
 """
 
 from difflib import SequenceMatcher
@@ -47,6 +48,12 @@ def parear(nomes_gabarito: list[str], nomes_saida: list[str]) -> list[tuple[int,
     return sorted(pares)
 
 
+def mesma_categoria(esperada: str, obtida: str) -> bool:
+    """Mesma seção, aceitando complemento no fim do título: 'Bolo de Pote' = 'Bolo de Pote 200g'."""
+    a, b = chave_nome(esperada), chave_nome(obtida)
+    return a == b or b.startswith(a + " ") or a.startswith(b + " ")
+
+
 def _fracao(parte: int, total: int) -> float:
     return round(parte / total, 3) if total else 1.0
 
@@ -65,7 +72,7 @@ def avaliar(gabarito: dict, saida: Cardapio) -> dict:
             esperado is not None and obtido is not None and abs(esperado - obtido) < 0.005
         ):
             precos_certos += 1
-        if chave_nome(itens_g[i].get("categoria") or "Outros") == chave_nome(itens_s[j].categoria):
+        if mesma_categoria(itens_g[i].get("categoria") or "Outros", itens_s[j].categoria):
             categorias_certas += 1
 
     return {
