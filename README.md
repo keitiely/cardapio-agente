@@ -31,6 +31,8 @@ flowchart LR
 | **Enriquecedor** | Sugere descrição curta e tags de uma **lista fechada** (vegano, sem glúten, frito…). Mantém a descrição original quando existe. | O Pydantic recusa qualquer tag fora da lista. A etapa é opcional: se falhar, o cardápio sai sem tags. |
 | **Validador** | Aponta preço ausente, preço fora de R$ 0,50–R$ 1.000, nome repetido e tags que se contradizem (vegano + contém lactose). | Não tenta consertar: diz o que um humano precisa olhar. |
 
+📐 **[Boas práticas de sistemas com IA neste projeto](docs/boas-praticas.md):** as 16 práticas seguidas (saída estruturada, humano no circuito, modelo reserva, evals com gabarito…), onde cada uma está no código e o que ainda falta.
+
 **Provedores:** Gemini (padrão, camada gratuita) ou Claude, trocando só a variável `PROVEDOR`. Se o modelo principal estiver sobrecarregado, o código tenta um modelo reserva.
 
 ## Resultados
