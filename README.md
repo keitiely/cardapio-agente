@@ -8,7 +8,9 @@ O problema: cadastrar um cardápio à mão leva cerca de **13 minutos** (medido)
 
 **Demo:** [cardapio-agente.streamlit.app](https://cardapio-agente.streamlit.app), com 3 cardápios já processados para ver na hora, sem gastar cota.
 
-<!-- GIF da demo entra aqui -->
+![Demo: envio de um cardápio novo, chamada real ao Gemini, 17 itens extraídos em 7,4 s](docs/demo.gif)
+
+<sub>Gravação da demo publicada com uma chamada real à API. A espera da leitura foi acelerada no GIF; o tempo real aparece na tela.</sub>
 
 ## Como funciona
 
@@ -83,7 +85,7 @@ A camada gratuita do Gemini permite cerca de 20 chamadas por dia por modelo, e c
 
 ## Testes
 
-**85 testes**, nenhum chama a API (o LLM é substituído por um falso e as chaves são apagadas do ambiente). Rodam no GitHub Actions a cada push e pull request.
+**86 testes**, nenhum chama a API (o LLM é substituído por um falso e as chaves são apagadas do ambiente). Rodam no GitHub Actions a cada push e pull request.
 
 Cobrem os formatos de preço brasileiros, os casos que vão para revisão humana, a queda do Enriquecedor sem derrubar o resultado, a troca para o modelo reserva quando o principal está lotado, a recusa de tags inventadas, as métricas dos evals e a abertura do app.
 
